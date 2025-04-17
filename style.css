@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Rubik Mono One', sans-serif;
+  background: url('https://i.imgur.com/4zLwC8N.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem 1rem;
+}
+h1 {
+  font-size: 3rem;
+  color: #ff2a6d;
+  text-shadow: 2px 2px #000;
+}
+.tagline {
+  font-size: 1.2rem;
+  color: #f7f7f7;
+  text-shadow: 1px 1px #000;
+}
+section {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+h2 {
+  color: #00ffcc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.episode,
+.product {
+  margin-bottom: 1.5rem;
+}
+.episode iframe,
+.product img {
+  border-radius: 12px;
+  max-width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #aaa;
+}

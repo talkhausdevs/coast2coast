@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coast 2 Coast Podcast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Coast 2 Coast 🎙️</h1>
+    <p class="tagline">From the Block to the Booth</p>
+  </header>
+
+  <section class="hero">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/your-podcast-id" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </section>
+
+  <section class="about">
+    <h2>About the Podcast</h2>
+    <p>Coast 2 Coast brings raw, unfiltered convos straight from the culture. Music, life, and everything in between.</p>
+  </section>
+
+  <section class="episodes">
+    <h2>Latest Episodes</h2>
+    <div class="episode">
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+      <p>Ep. 12 – Real Talk with Big Flame</p>
+    </div>
+  </section>
+
+  <section class="comments">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = 'coast2coast';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://YOUR_DISQUS_SHORTNAME.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </section>
+
+  <section class="merch">
+    <h2>Cop the Merch 🧢</h2>
+    <div class="product">
+      <img src="https://i.imgur.com/1k3dZyK.png" alt="Graffiti Hoodie">
+      <p>Graffiti Logo Hoodie – $45</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Coast 2 Coast Podcast | Built with 💥</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
